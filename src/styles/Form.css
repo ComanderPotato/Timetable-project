@@ -1,0 +1,44 @@
+main {
+  display: grid;
+  place-content: center;
+  width: min(400px, 80%);
+  margin-inline: auto;
+  font-family: sans-serif;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.flex-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ grid-column: 1 / -1;
+}
+.span-percent {
+  /* display: none; */
+}
+input {
+  height: 1.8rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.form-btn {
+  border: none;
+  border-radius: .2rem;
+}
+.submit-btn {
+  background-color: rgb(4, 207, 4);
+}
+.reset-btn {
+  background-color: rgb(255, 139, 139);
+}
+#percentage {
+  max-width: 4.5rem;
+}
+
+

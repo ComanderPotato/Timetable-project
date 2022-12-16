@@ -1,0 +1,12 @@
+.red {
+  background-color: rgba(255, 68, 68, 0.644);
+}
+.yellow {
+  background-color: rgba(255, 255, 48, 0.664);
+}
+.green {
+  background-color: rgba(53, 236, 53, 0.651);
+}
+td {
+  text-align: center;
+}
